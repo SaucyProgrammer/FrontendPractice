@@ -1,0 +1,29 @@
+
+#Breaking{
+    text-align: center;
+    font-style: italic   ;
+}
+.img-container{
+    text-align: center;
+    display: block;
+}
+
+#elon{
+    height: 500px;
+     width: 600px;
+}
+#rocket{
+    height: 500px;
+    width: 600px;
+
+}
+
+#bitcoin{
+    height: 400px;
+    width: 450px;
+}
+
+
+#Non-relevant{
+    column-count:2 ;
+}

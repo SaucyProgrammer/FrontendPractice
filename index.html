@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=33, initial-scale=1.0">
+    <title>Day_2 Notes:</title>
+    <link rel="stylesheet" href="./style.css"></link>
+    <link rel="icon" type="image/x-icon" href="./notebook.jpg">
+
+</head>
+<body>
+
+    <!-- Ordered List and Unordered List-->
+    <h3>This is a example of a unordered list:</h3>
+    <ul>
+        <li>Apple</li><!-- "li stands for list item" -->
+        <li>Banana</li>   
+        <li>Orange</li>   
+        <li>Grape</li>   
+    </ul>  <!-- "ul" stands for Unordered List -->
+    <br> 
+    <!-- In a Unordered List, each of it's members have a leading dot sign for a list  -->
+
+
+
+    <h3>This is a example of a ordered list:</h3>
+    <ol><!-- "ol" stands for Ordered List  -->
+        <li>Coffe</li>
+        <li>Tea</li>   
+        <li>Juice</li>   
+        <li>Milk</li>   
+    </ol> 
+    <br> 
+    <!-- In a Ordered List, each of it's memebers have a leading number number 1 -> the amount of all the members in a
+    numbered order. -->
+
+
+
+
+<!-- Beginning "div/division" section of class "dl" or a descriptive list -->
+<div class="dl"> <!-- "class" and "id" are attributes but also KNOWN AS LOCATORS! -->
+
+    <h3>This is a example of a Descriptive list:</h3>
+    <dl>
+        <span id="hot-coffee">
+        <dt>HOT COFFEE:</dt> <!-- "dt" stands for Descriptive Title -->
+        </span>
+        <br>
+
+          <dd>- Americano</dd>   
+          <dd>- Brewed</dd>   
+          <dd>- Decaf Coffee</dd><!-- "dd" stands for Descriptive Details  -->
+          <dd>- Flat White</dd>
+          <dd>- Expresso</dd> 
+          <br>  
+
+
+          <span id="hot-tea">
+        <dt>HOT TEA</dt> 
+          </span>
+          <br> 
+
+
+          <dd>- Black Tea:</dd>   
+          <dd>- Green Tea</dd>   
+          <dd>- Milk Tea</dd>   
+          <dd>- Herbal Tea</dd>
+          <dd>- Medicinal Tea</dd>     
+    </dl> 
+    <br> 
+</div>     
+
+
+<!-- "Div" this div seperates the table into a table section on the webpage.  -->
+<div class="tbl">
+
+<!-- Tables in a html code: -->
+<table class="tbl1">
+    <!-- "tr" stands for table row, usually table information or column info goes here, "th" table header -->
+    <tr>
+        <th>Student</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Class</th> 
+    </tr>
+    <tr>
+        
+        <td>Zak D</td>
+        <td>571-5</td>
+        <td>@gmail.com</td>
+        <td>QA Automation</td>
+    </tr>
+</table>
+<br>
+
+<table class="tbl2">
+   
+    <tr>
+        <th>Student</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Class</th> 
+    </tr>
+    <tr>
+      
+        <td>Mini</td>
+        <td>7034</td>
+        <td>@gmail.com</td>
+        <td>QA Automation</td>
+    </tr>
+</table>
+
+
+</div>
+<br>
+
+
+<!-- a "form" takes a user input from the UI and saves it to the backend -->
+<form>
+    <!-- "for" is also a locator like class and id: we are using this one for form -->
+    <label for="fname">First Name: </label>
+    <input type ="text" id ="fname"><br>
+
+
+    <label for="lname">Last Name: </label>
+    <input type ="text" id ="lname"><br>
+    <!-- for the "input" it is like using a Scanner cclass in java, the type:
+    -Text -> Takes text
+    -Gender -> Chossing for gender
+    -password -> if it is only password -> it hides your letters and characters
+    -email   -> Must be written in email format
+     These things allow for a syntax or a parameter for each thing inputted it must match the html synatx -->
+
+
+    <label for="email">Email: </label>
+    <input type ="email" id ="email"><br>
+
+
+    <label for="pass">Password: </label>
+    <input type ="password" id ="pass"><br>
+
+
+    <label for="cpass">Confirm Password: </label>
+    <input type ="password" id ="cpass"><br>
+
+    <label for="showPassword">Show Password: </label>
+    <input type ="checkbox"><br>
+
+
+    <!-- This shows a radio options selection list -->
+    <span>
+    <label for="gender">Gender:</label>
+   
+
+    <label for="gender">Male</label>
+    <input type="radio">
+
+    <label for="gender">Female</label>
+    <input type="radio">
+    </span>
+
+
+    <!-- The checkbox type allows for a checkbox to show us -->
+
+
+
+    <input type="submit" value="submit">
+
+
+
+</form>
+
+<br>
+<h5>To Check Yesterday's News Article</h5>
+<hr>
+<a href="../HomeWork/Newspaper.html">04/05/2022</a>
+<!-- "../" means going back -> then you type in the desired folder ->homeWork and go into it's file. -->
+<!-- MAKE SURE TO GO BACK INTO ANOTHER WEBPAGE YOU MUST MAKE SURE BOTH PAGES ARE LIVE AND YOU HAVE 
+IT OPEN, THIS IS HOW YOU MAKE A WEBSITE WITH MULTIPLE PAGES. -->
+
+    
+</body>
+</html>

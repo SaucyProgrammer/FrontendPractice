@@ -1,0 +1,15 @@
+
+
+#right{
+    text-align: right;
+    height: 5px;
+    width: 10px;
+}
+#other-news{
+    column-count: 3;
+}
+.USA-stocks,th,td{
+    border: 1px solid black;
+    border-radius: 30;
+
+}
